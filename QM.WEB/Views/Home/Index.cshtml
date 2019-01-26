@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Roch Quine McCluskey Program</title>
+    <link href="~/Content/index.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    @Html.AntiForgeryToken()
+    <div class="title">
+        <span>Roch Quine McCluskey Program</span>
+    </div>
+
+    <div class="body">
+        <div class="customheader">
+            <span>
+                Sum of Minterms
+            </span>
+        </div>
+        <input class="custominput" type="text" id="input-given" placeholder="Enter Sum of Minterms (0,1,2,3,4,5,...,15)">
+        <div class="row">
+            <div class="custombutton" id="btn-submit">
+                <span>Submit</span>
+            </div>
+        </div>
+        <div class="customarea" id="area-result"></div>
+    </div>
+    <script src="~/Scripts/index.js"></script>
+    <script src="~/Scripts/services.js"></script>
+</body>
+</html>

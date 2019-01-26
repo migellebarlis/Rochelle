@@ -1,0 +1,83 @@
+﻿head, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+}
+
+.title {
+    height: 43px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.body {
+    height: calc(100% - 43px);
+    width: 100%;
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.customheader {
+    height: 20px;
+    width: auto;
+    font-weight: bold;
+}
+
+.custominput {
+    height: 25px;
+    width: 100%;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.row {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custombutton {
+    height: 30px;
+    width: 150px;
+    color: #ffffff;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 500ms;
+    margin-bottom: 10px;
+}
+
+    .custombutton:hover {
+        color: #ffffff;
+        background-color: dodgerblue;
+    }
+
+    .customarea {
+        height: calc(100% - 100px);
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: antiquewhite;
+    }
